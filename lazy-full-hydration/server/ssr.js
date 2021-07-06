@@ -5,7 +5,7 @@ import path from 'path'
 import App from '../client/App'
 
 
-const cameFromSsrScript = '<script>window.__CAME_FROM_SSR__=true</script>';
+const cameFromSsrScript = '<script>window.__CAME_FROM_SSR__=true</script>'
 
 const ssr = () => {
   const htmlPath = path.resolve(__dirname, '../client/index.html')

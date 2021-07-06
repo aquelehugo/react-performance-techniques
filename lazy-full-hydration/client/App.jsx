@@ -35,10 +35,10 @@ const App = () => {
 
   return (
     <div>
-      <h1>React Lazy Hidration Example</h1>
+      <h1>React Lazy Full Hidration Example</h1>
       <div>
         <p>
-          When using SSR, we render all elements server-side but the hydration will not kick in until you interact with the form below.
+          When using SSR, we render all elements server-side but the hydration of the entire app will not kick in until you interact with the form below.
         </p>
         <p>To achieve this, we add an focus listener to the form out of React. That listener is responsible for triggering the hydration and removing itself</p>
         <p>This technique is useful for applications that are mainly focused on displaying content but have a few interactive parts</p>
