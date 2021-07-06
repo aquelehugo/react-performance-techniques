@@ -23,7 +23,7 @@ yarn build-all
 3. In another terminal, start the server
 
 ```
-yarn start-server
+yarn start
 ```
 
 4. The example should be available at http://localhost:3000/
