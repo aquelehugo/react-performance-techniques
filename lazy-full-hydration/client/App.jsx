@@ -32,7 +32,6 @@ const App = () => {
   const isHydrated = useIsHydrated()
   const { email, onChangeEmail, onSubmitEmail } = useEmailForm()
 
-
   return (
     <div>
       <h1>React Lazy Full Hidration Example</h1>

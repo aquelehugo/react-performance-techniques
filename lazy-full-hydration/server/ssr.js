@@ -4,7 +4,6 @@ import fs from 'fs'
 import path from 'path'
 import App from '../client/App'
 
-
 const cameFromSsrScript = '<script>window.__CAME_FROM_SSR__=true</script>'
 
 const ssr = () => {
