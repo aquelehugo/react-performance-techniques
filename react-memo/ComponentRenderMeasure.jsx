@@ -20,7 +20,7 @@ const ComponentRenderMeasure = ({ children }) => {
 
   return (
     <div style={{ border: '1px solid', padding: '0.5em' }}>
-      <p>Time to render container with component below: <span ref={measureOutputRef}>-</span>ms</p>
+      <p>Approximate time to render the entire app with component below: <span ref={measureOutputRef}>-</span>ms</p>
       <div>
         {children}
       </div>
